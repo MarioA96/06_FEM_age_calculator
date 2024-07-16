@@ -1,0 +1,53 @@
+@layer reset, base, tokens, recipes, utilities;
+
+@font-face {
+    font-family: 'Poppins Bold';
+    src: url('/06_FEM_age_calculator/assets/fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins Bold Italic';
+    src: url('/06_FEM_age_calculator/assets/fonts/Poppins-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins Extra Bold';
+    src: url('/06_FEM_age_calculator/assets/fonts/Poppins-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins Extra Bold Italic';
+    src: url('/06_FEM_age_calculator/assets/fonts/Poppins-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins Italic';
+    src: url('/06_FEM_age_calculator/assets/fonts/Poppins-Italic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins Regular';
+    src: url('/06_FEM_age_calculator/assets/fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --font-poppins-bold: 'Poppins Bold', sans-serif;
+    --font-poppins-bold-italic: 'Poppins Bold Italic', sans-serif;
+    --font-poppins-extra-bold: 'Poppins Extra Bold', sans-serif;
+    --font-poppins-extra-bold-italic: 'Poppins Extra Bold Italic', sans-serif;
+    --font-poppins-italic: 'Poppins Italic', sans-serif;
+    --font-poppins-regular: 'Poppins Regular', sans-serif;
+  }
