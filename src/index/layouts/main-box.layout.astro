@@ -1,0 +1,17 @@
+---
+import { cva } from "../../../styled-system/css/cva.mjs";
+
+const main_box = cva({
+    base: {
+        display: 'flex',
+        width: { xsm: '100%' }, 
+        height: { xsm: '100%' },
+        justifyContent: { xsm: 'center' },
+        alignItems: { xsm: 'center' }, 
+    }
+});
+---
+
+<main class={ main_box({}) }>
+    <slot />
+</main>
