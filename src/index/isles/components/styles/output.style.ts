@@ -8,11 +8,13 @@ export const output_box = cva({
         width: { xsm: '100%' },
         height: { xsm: '100%' },
         backgroundColor: 'white',
+        borderRadius: { xsm: '0% 0% 30% 5%' },
         '& #content_box': {
             display: 'flex',
             flexDirection: { xsm: 'row' },
             alignItems: { xsm: 'center' },
-            justifyContent: { xsm: 'center' },
+            justifyContent: { xsm: 'center', lg: 'left' },
+            marginLeft: { xsm: '0px', lg: '80px' },
             width: { xsm: '100%' },
             height: { xsm: 'calc( 100& / 3 )' },
             '& #data-value': {

@@ -7,13 +7,13 @@ export const submit_box = cva({
       order: { xsm: '2' },
       width: { xsm: '100%' },
       height: { xsm: '50%' },
-      alignItems: { xsm: 'center' },
+      alignItems: { xsm: 'center', lg: 'left' },
       '& #decoration_box': {
         base: {
             display: 'flex',
             position: { xsm: 'absolute' },
             top: { xsm: '50%' },
-            width: { xsm: '100%' },
+            width: { xsm: '100%', lg: '90%' },
             height: { xsm: '10%' },
             justifyContent: 'center',
             '& #decoration': {
@@ -30,10 +30,10 @@ export const submit_box = cva({
           display: 'flex',
           position: { xsm: 'absolute' },
           top: { xsm: '25%' },
-          width: { xsm: '100%' },
+          width: { xsm: '100%', lg: '90%' },
           height: { xsm: '20%' },
           zIndex: '9',
-          justifyContent: 'center',
+          justifyContent: { xsm: 'center', lg: 'right' },
           '& :hover': {
                 backgroundColor: 'hsl(0, 0%, 86%)',
                 cursor: 'pointer'
