@@ -1,5 +1,8 @@
 # Frontend Mentor - Age calculator app
 
+## State of project: DONE! 🥳
+[Live Demo](https://marioa96.github.io/06_FEM_age_calculator/)
+
 ![Design preview for the Age calculator app coding challenge](./design/desktop-preview.jpg)
 
 ## The challenge
